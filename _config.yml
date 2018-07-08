@@ -10,10 +10,10 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 
 # Site Settings
-title: "GDG DevFest Season 2014"
-email: "devfest@gdg.org.ua"
-description: "GDG DevFest is a set of events all around the world"
-baseurl: "/zeppelin"
+title: "Build IT Right"
+email: "info@builditrightconf.uk"
+description: "‘Build IT Right’ is a new annual conference for 2018. The conference is a one- day event with high profile inspirational speakers and exhibition aimed at those building software in the North East. It will take place on 21 November at the Crowne Plaza, Stephenson Works, Newcastle. Delegates can expect a dedicated day away from their screens, expanding knowledge and discovering emerging trends. There will be the opportunity to network, facilitate long lasting relationships all whilst supporting and empowering the IT developer community in the North East."
+baseurl: "/bitr"
 url: "https://gdg-x.github.io"
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: "UA-43643469-5"
@@ -55,29 +55,29 @@ rightNavigationButtons:
  - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
 
 # Hero Block
-heroImage: "hero.jpg"
-heroTitle: "GDG DevFest <typeout> 2014"
-eventDate: "September - November, 2014"
-typeoutTextValues: '"", "Season", "Ukraine", "Germany", "USA"'
+heroImage: "newcastle-bridge.jpg"
+heroTitle: "Build IT Right <typeout> 2018"
+eventDate: "21st November 2018"
+#typeoutTextValues: '"", "Season", "Ukraine", "Germany", "USA"'
 typeoutFallback: "Season"
 heroButtons:
  - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
  - {permalink: "/#tickets", text: "Buy tickets"}
 
 # About Block
-aboutTitle: "About GDG DevFest"
+aboutTitle: "About Build IT Right"
 aboutBlock:
  - {title: "Conference", image: "conference.jpg", text: "The biggest Google related event in the country carefully crafted for you by GDG community! Awesome speakers and lots of fun!" }
- - {title: "Workshops", image: "workshop.jpg", text: "Full-day of workshops, hands-on experience, hacking and debugging. Come and tame your favourite technology!" }
+ - {title: "After Party", image: "workshop.jpg", text: "Full-day of workshops, hands-on experience, hacking and debugging. Come and tame your favourite technology!" }
  - {title: "Hackathon", image: "hackathon.jpg", text: "Full-day freestyle hackathon! Want some real team building on friday? Grab your team and join our hackathon!" }
 
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
 statisticBlock:
- - {count: "350", specialCharacter: "+", info: "attendees", detail: "from everywhere"}
- - {count: "48", specialCharacter: "+", info: "hours", detail: "of pure Google technologies"}
- - {count: "20", specialCharacter: "+", info: "speakers", detail: "from country and beyond"}
- - {count: "3", specialCharacter: "", info: "parallel tracks", detail: "plus entertainment lounge"}
+ - {count: "300", specialCharacter: "+", info: "attendees", detail: "from everywhere"}
+ - {count: "16", specialCharacter: "+", info: "hours", detail: "of awesome talks"}
+ - {count: "10", specialCharacter: "+", info: "speakers", detail: "from UK and beyond"}
+ - {count: "2", specialCharacter: "", info: "parallel tracks", detail: "plus networking lounge"}
 
 # Latest News Block
 latestNewsTitle: "Latest news"
@@ -90,19 +90,19 @@ rockstarSpeakersButtonText: "See all speakers"
 
 # Location Block
 locationBlockTitle: "Location"
-eventLocationName: "Conference Hall"
-eventLocationLink: "http://cabinet.kinopalace.lviv.ua/showtimes/"
-eventStreetAddress: "22 Teatral'na St"
-eventAddressLocality: "Lviv"
-eventAddressLocalityRegion: "Lvivska"
-eventPostalCode: "79000"
-eventAddressCountry: "Ukraine"
-eventStartTime: "2014-10-25T10:00"
-eventDoorTime: "09:00"
-eventEndTime: "2014-10-25T20:00"
-eventPlaceCoordinates: "49.843237, 24.028751"
-mapCenterCoordinates: "49.842537, 24.025701"
-mapMobileCenterCoordinates: "49.841620, 24.029411"
+eventLocationName: "Crowne Plaza"
+eventLocationLink: "https://www.ihg.com/crowneplaza/hotels/gb/en/newcastle-upon-tyne/nclsq/hoteldetail"
+eventStreetAddress: "Hawthorne  Square, Forth Street"
+eventAddressLocality: "Stephenson Quarter"
+eventAddressLocalityRegion: "Newcastle upon Tyne"
+eventPostalCode: "NE13SA"
+eventAddressCountry: "UK"
+eventStartTime: "2018-11-21T09:00"
+eventDoorTime: "08:30"
+eventEndTime: "2018-11-21T20:00"
+eventPlaceCoordinates: "54.9669633, -1.6878581"
+mapCenterCoordinates: "54.9669633, -1.687858"
+mapMobileCenterCoordinates: "54.9669633, -1.6878581"
 
 # Venue Block
 venueBlockTitle: "Venue"
@@ -136,21 +136,21 @@ ticketsInfo: "Tickets grant access to all conference sections, coffee brakes, lu
 ticketsOffers:
  -
   name: "Early Bird"
-  price: "350"
-  priceCurrency: "UAH"
-  ticketsNumber: "150"
-  ribbon: "-5%"
+  price: "99"
+  priceCurrency: ""
+  ticketsNumber: "£99"
+  ribbon: "-33%"
   buyButtonLink: "http://dfua.ticketforevent.com/"
   buyButtonText: "Buy Now"
   ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
   validFrom: "2014-08-25T10:00"
   validThrough: "2014-09-30T23:59"
  -
-  name: "Last Chance"
+  name: "Standard"
   price: "450"
-  priceCurrency: "UAH"
-  ticketsNumber: "100"
-  ribbon: "-20%"
+  priceCurrency: ""
+  ticketsNumber: "£150"
+  ribbon: "Full Price"
   featured: true
   buyButtonLink: "http://dfua.ticketforevent.com/"
   buyButtonText: "Buy Now"
@@ -159,9 +159,9 @@ ticketsOffers:
   validThrough: "2014-10-23T23:59"
   disabled: true
  -
-  name: "Student"
-  price: "200"
-  priceCurrency: "UAH"
+  name: "Discounted"
+  price: "£99"
+  priceCurrency: ""
   ticketsNumber: "50"
   buyButtonLink: "http://dfua.ticketforevent.com/"
   buyButtonText: "Buy Now"
