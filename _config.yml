@@ -82,12 +82,13 @@ heroButtons:
 
 # About Block
 aboutTitle: "About Build IT Right"
-aboutBlock:
- - {title: "Conference", image: "Simon_Brown.jpg", text: "<p>Build IT Right 2.0 will be held on the 12th November 2020 online to inspire, expand knowledge and discuss emerging trends. Featuring tracks on
-  <b>Architecture, Development Process, Development Technologies, UX & UR</b> and new theme for 2020, <b>‘Devs in the fight against Covid-19’</b>,
-  it will be a day full of engaging and informative sessions.</p>
-  <p>Alongside live interaction on the day, lightning talks and keynotes, attendees will also benefit from 12 months replay to catch up on sessions.
-  Attendees will also receive a swag bag delivered to an address of their choice.</p>" }
+aboutVideo: "https://www.youtube.com/embed/ixxGBoc4fYo"
+# aboutBlock:
+#  - {title: "Conference", image: "Simon_Brown.jpg", text: "<p>Build IT Right 2.0 will be held on the 12th November 2020 online to inspire, expand knowledge and discuss emerging trends. Featuring tracks on
+#   <b>Architecture, Development Process, Development Technologies, UX & UR</b> and new theme for 2020, <b>‘Devs in the fight against Covid-19’</b>,
+#   it will be a day full of engaging and informative sessions.</p>
+#   <p>Alongside live interaction on the day, lightning talks and keynotes, attendees will also benefit from 12 months replay to catch up on sessions.
+#   Attendees will also receive a swag bag delivered to an address of their choice.</p>" }
 
 # Feedback Block
 feedbackTitle: "Feedback from 2019"
